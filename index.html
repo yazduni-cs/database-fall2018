@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Database Systems (Autumn 2018) - Yazd University</title>
+
+  <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+  <![endif]-->
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="./style.css">
+</head>
+
+<div class="container">
+  <div class="navbar navbar-default" role="navigation">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#">Database Systems</a>
+      </div>
+
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav">
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown">About <span class="caret"></span></a>
+            <ul class="dropdown-menu" role="menu">
+              <li><a href="#description">Description</a></li>
+              <li><a href="#logistics">Class Logistics</a></li>
+              <li><a href="#lecture">Lecture Plan</a></li>
+              <li><a href="#grading">Grading</a></li>
+              <li class="divider"></li>
+              <li><a href="#staff">Staff</a></li>
+              <li class="divider"></li>
+              <li><a href="#late-policy">Late Policy</a></li>
+              <li><a href="#honor-code">Honor Code</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+<div class="jumbotron">
+<h1>Database Systems (Autumn 2018)</h1>
+</div>
+
+<div class="panel panel-default">
+  <div class="panel-heading">Description</div>
+  <div class="panel-body">
+    <a name="description"></a>
+This course covers database design and the use of databases in
+applications, with a short introduction to the internals of relational
+database engines. It includes extensive coverage of the relational
+model, relational algebra, and SQL. The course also features database
+design and relational design principles based on dependencies and
+normal forms. Many additional key database topics from the design and
+application-building perspective are also covered, including indexes, views,
+transactions, and integrity constraints. Systems such as MapReduce
+framework and key-value stores will also be covered. There will be a
+programming project, which explores database design and management in
+web applications by utilizing appropriate features of SQL.
+  </div>
+</div>
+
+<div class="panel panel-default">
+  <div class="panel-heading">Class Logistics</div>
+  <div class="panel-body">
+	  <a name="logistics"></a>
+    <p>
+We're excited to once again utilize <i>Jupyter notebooks</i> to allow for more
+interactivity in the class. Installation instructions are available <a href="https://github.com/yazduni-cs/database-fall2018/blob/master/jupyter_install.md">here</a>.
+Python is used in the in-class activities, homework and projects.
+<br>
+    </p>
+	</div>
+</div>
+
+<div class="panel panel-default">
+  <div class="panel-heading">
+    <h2 class="panel-title">Lecture Plan</h2>
+  </div>
+  <div class="panel-body">
+    <a name="lecture"></a>
+    <p>
+The reading material listed below is optional, but it refers to
+<i>Database Systems: The Complete Book</i> by Garcia-Molina, Ullman,
+and Widom. The lecture plan below may change.
+    </p>
+    <p>
+    <hr /> 
+
+<table class="plan">
+  <tbody>
+    <tr>
+      <th>#</th>
+      <th>Date</th>
+      <th>Topic</th>
+      <th>Lecture Materials</th>
+      <th><i>Extra</i> Reading Material</th>
+      <th>Assignments</th>
+    </tr>
+    <tr>
+      <td align="center" colspan="6" class="small-section-header">Introduction and Querying</td>
+    </tr>
+  <tr>
+    <td>1</td>
+    <td>9/26</td>
+    <td>Course Logistics and Database History</td>
+    <td>
+      <a href="lectures/lecture-1/Lecture_1_Intro.pptx">Lecture 1</a> (<a href="lectures/lecture-1/Lecture_1_Intro.pdf">pdf</a>) <br> <br>
+      Activities: <br>
+      <a href="lectures/lecture-1/Activity-1-1.ipynb" download>Activity 1-1</a> <br>
+      <a href="lectures/lecture-1/Activity-1-2.ipynb" download>Activity 1-2</a> <br>
+      <a href="lectures/lecture-1/dataset_1.db" download>Activity db</a> <br>
+      <a href="https://github.com/yazduni-cs/database-fall2018/blob/master/jupyter_install.md">Jupyter Install Instructions</a> <br>
+    </td>
+    <td></td>
+    <td></td>
+  </tr>
+</tbody>
+    </table>
+</div>
+
+<div class="panel panel-default">
+  <div class="panel-heading">Midterm Exam</div>
+  <div class="panel-body">
+    TBA.
+  </div>
+</div>
+ 
+<div class="panel panel-default">
+  <div class="panel-heading">Final Exam</div>
+  <div class="panel-body">
+    TBA.
+  </div>
+</div> 
+
+<div class="panel panel-default">
+  <div class="panel-heading">Grading</div>
+  <div class="panel-body">
+    <a name="grading"></a>
+    <table class="table">
+      <tr><td>Problem Sets and Programming Projects</td><td>30%</td>
+      <tr><td>Midterm</td><td>30%</td>
+      <tr><td>Final</td><td>40%</td>
+    </table>
+  </div>
+</div>
+
+<div class="panel panel-default">
+  <div class="panel-heading">Office Hours</div>
+  <div class="panel-body">
+    <a name="office-hours"></a>
+TBA.
+</div>
+</div>
+
+<div class="panel panel-default">
+  <div class="panel-heading">Staff</div>
+  <div class="panel-body">
+    <a name="staff"></a>
+    TBA.
+  </div>
+</div>
+
+
+<div class="panel panel-default">
+  <div class="panel-heading">Late Policy</div>
+  <div class="panel-body">
+  <a name="late-policy"></a>
+You will have six 24-hour "late days" that you can use
+throughout the quarter on any of the Problem Sets or Programming
+Projects, unless specified otherwise. Beyond these six late days, we
+will only grant extensions in the case of a severe medical or family
+emergency. Please use your late days wisely. 
+<br> You can use all six late days on each assignment except the last one. 
+You will only be able to use 2 late days on the last assignment. 
+  </div>
+</div>
+
+<div class="panel panel-default">
+  <div class="panel-heading">Honor Code and Collaboration Policy</div>
+  <div class="panel-body">
+<a name="honor-code"></a>
+<p>
+We encourage you to discuss the Programming Projects and Problem Sets
+with other students; it's fine to discuss overall strategy and
+collaborate with a partner or in a small group, as both giving and
+receiving advice will help you to learn.
+</p>
+<p>
+However, for the Programming Projects, you must write your own code: it's not OK to share code or write code collaboratively. (This includes posting and/or sharing your code publicly, such as on GitHub!) Likewise, for the Problem Sets, you must write up your own solutions to all of the problems, and you must cite all people you worked with.
+</p>
+<p>
+If you consult any resources outside of the materials provided in
+class, you must cite these sources. We reserve the right to assign a
+penalty if your answers are substantially derivative, but, as long as
+you provide appropriate citations, we will not consider this an Honor
+Code violation.
+</p>
+  </div>
+</div>
+
+
+<div class="panel panel-default">
+  <div class="panel-heading">Feedback</div>
+  <div class="panel-body">
+    Please provide feedback to any of the course staff <a href="https://docs.google.com/forms/d/e/1FAIpQLSdUi0Ev3rBsMEcGCm7elBWTLfTxc-GKjTxT0KV0GpnyPHIO3w/viewform">anonymously via the this form</a>, which only the professor can access.
+  </div>
+</div>
+
+</div>
+</body>
+
+</html>
